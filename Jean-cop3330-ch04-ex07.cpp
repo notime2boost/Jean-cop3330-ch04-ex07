@@ -1,5 +1,4 @@
-// Chapter 04, exercise 07: simple calculator for four basic math operations,
-// takes single digits as int or spelled out
+
  //*  UCF COP3330 Fall 2021 Assignment 5 Solution
  //*  Copyright 2021 Christopher Jean
 
@@ -21,7 +20,7 @@ void init_vector()
     s_digits.push_back("nine");
 }
 
-// tries to read an integer from input; if this fails, input is cleared and read as a string
+
 int get_number()
 {
     int inp = 0;
@@ -34,7 +33,6 @@ int get_number()
         if (s_digits[i]==inp_s)
             return i;
     }
-    // this is only executed if input is not valid
     return(-1);
 }
 
